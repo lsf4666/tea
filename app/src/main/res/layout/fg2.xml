@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="#ffffff"
+        android:drawableTop="@drawable/b2"
+        android:paddingBottom="2dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:paddingTop="2dp"
+        android:layout_gravity="left|top"
+        android:text="病 类"
+        android:textColor="#a9a9a9"
+        android:textSize="25sp"
+        app:layout_widthPercent="48%"
+        app:layout_heightPercent="48%"></Button>
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="#ffffff"
+        android:drawableTop="@drawable/e1"
+        android:paddingBottom="2dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:paddingTop="2dp"
+        android:layout_gravity="right|top"
+        android:text="蛾 类"
+        android:textColor="#a9a9a9"
+        android:textSize="25sp"
+        app:layout_widthPercent="48%"
+        app:layout_heightPercent="48%"></Button>
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="#ffffff"
+        android:drawableTop="@drawable/c2"
+        android:paddingBottom="2dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:paddingTop="2dp"
+        android:layout_gravity="left|bottom"
+        android:text="蝉 类"
+        android:textColor="#a9a9a9"
+        android:textSize="25sp"
+        app:layout_widthPercent="48%"
+        app:layout_heightPercent="48%"></Button>
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="#ffffff"
+        android:drawableTop="@drawable/q1"
+        android:paddingBottom="2dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:paddingTop="2dp"
+        android:layout_gravity="right|bottom"
+        android:text="其他"
+        android:textColor="#a9a9a9"
+        android:textSize="25sp"
+        app:layout_widthPercent="48%"
+        app:layout_heightPercent="48%"></Button>
+
+
+</android.support.percent.PercentFrameLayout>
